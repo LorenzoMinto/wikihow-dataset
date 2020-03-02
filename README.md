@@ -1,4 +1,4 @@
-### This fork modifies the preprocessed output to JSON format to allow using non-Tensorflow libraries to work with the CNN/DailyMail summarization dataset
+### This fork modifies the preprocessed output to JSON format to allow using non-Tensorflow libraries to work with the WikiHow summarization dataset
 **Note**: requires Python 3
 
 *This fork is primarily developed in order to work with [this repository](https://github.com/ChenRocks/fast_abs_rl) which uses pytorch*
