@@ -106,7 +106,7 @@ def write_to_tar(tokenized_articles_csv):
                 js_example = {}
                 js_example['id'] = "{}".format(idx)
                 js_example['article'] = article_sents
-                js_example['summary'] = summary_sents
+                js_example['abstract'] = summary_sents
                 js_serialized = json.dumps(js_example, indent=4).encode()
                 save_file = io.BytesIO(js_serialized)
                 tar_info = tarfile.TarInfo('{}/{}.json'.format(
